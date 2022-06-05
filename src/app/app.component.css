@@ -1,0 +1,61 @@
+.gothic {
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+}
+
+.ca-topnav {
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+}
+
+.ca-topnav label {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  width: 100%;
+}
+
+.container {
+  background-color: lightgray;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  align-content: center;
+  text-align: center;
+}
+
+.an-1 {
+  font-weight: 900;
+  font-size: 200%;
+
+}
+
+.an-1 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.countdown-container {
+  text-align: center;
+}
+
+section {
+  width: 45%;
+  margin-left: 27.5%;
+}
+
+.gameimg {
+  width:33%;
+}
+
+@media screen and (max-width: 1000px) {
+  section {
+    width: 100%;
+    margin-left: 0%;
+  }
+}
